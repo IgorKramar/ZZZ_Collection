@@ -1,3 +1,5 @@
+![ZZZ Industrial Collection](banner.jpg)
+
 # ZZZ Industrial Collection
 
 **Сборка модов для Project Zomboid Build 42.20.2+** · [Коллекция в Мастерской Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259)
@@ -24,7 +26,7 @@
 | `README_УСТАНОВКА.txt` | Подробная инструкция по установке и настройке (RU) |
 | `README_INSTALL_EN.txt` | Та же инструкция на английском |
 | `Zomboid/Lua/sorting_rules.txt` | Правила порядка загрузки для Mod Load Order Sorter |
-| `Zomboid/mods/default.txt` | Готовый список включённых модов (81 шт.) |
+| `Zomboid/mods/default.txt` | Готовый список включённых модов (82 шт.) |
 
 Эти файлы не приезжают автоматически при подписке на коллекцию — Steam доставляет только сами моды.
 
@@ -64,7 +66,7 @@ Details — map priorities, what not to enable, which validator warnings are exp
 | `README_УСТАНОВКА.txt` | Detailed install & setup guide (Russian) |
 | `README_INSTALL_EN.txt` | The same guide in English |
 | `Zomboid/Lua/sorting_rules.txt` | Load-order rules for Mod Load Order Sorter |
-| `Zomboid/mods/default.txt` | Ready-made enabled-mods list (81 mods) |
+| `Zomboid/mods/default.txt` | Ready-made enabled-mods list (82 mods) |
 
 A Steam subscription delivers the mods themselves — but not these files.
 
