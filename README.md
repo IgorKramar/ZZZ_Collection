@@ -4,9 +4,9 @@
 
 **Сборка модов для Project Zomboid Build 42.20.2+** · [Коллекция в Мастерской Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259)
 
-Индустриальный апокалипсис: выживание трудом. Разожги горн, собери станок, распаши поле, почини грузовик — и построй среди мёртвого Кентукки работающее хозяйство. ~80 модов с выверенным порядком загрузки, проверенной совместимостью и полной русской локализацией.
+Индустриальный апокалипсис: выживание трудом. Разожги горн, собери станок, распаши поле, почини грузовик — и построй среди мёртвого Кентукки работающее хозяйство. 100 модов с выверенным порядком загрузки, проверенной совместимостью и полной русской локализацией.
 
-*An industrial apocalypse modpack for Project Zomboid Build 42.20.2+: ~80 mods with a tuned load order, verified compatibility and full Russian localization. English version below.*
+*An industrial apocalypse modpack for Project Zomboid Build 42.20.2+: 100 mods with a tuned load order, verified compatibility and full Russian localization. English version below.*
 
 ---
 
@@ -26,7 +26,7 @@
 | `README_УСТАНОВКА.txt` | Подробная инструкция по установке и настройке (RU) |
 | `README_INSTALL_EN.txt` | Та же инструкция на английском |
 | `Zomboid/Lua/sorting_rules.txt` | Правила порядка загрузки для Mod Load Order Sorter |
-| `Zomboid/mods/default.txt` | Готовый список включённых модов (82 шт.) |
+| `Zomboid/mods/default.txt` | Готовый список включённых модов (100 шт.) |
 
 Эти файлы не приезжают автоматически при подписке на коллекцию — Steam доставляет только сами моды.
 
@@ -36,7 +36,7 @@
 |---|---|
 | [Hydrocraft Reinvented [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) | Легендарный мега-мод, пересобранный для B42: 5 196 предметов, 3 620 рецептов на нативной системе craftRecipe |
 | [ZZZ Mod Stitch [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778211804) | Патч совместимости: чинит стыки между модами, валидирует сборку при каждом запуске |
-| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Русская локализация: 10 000+ строк поверх модов без русского перевода |
+| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Русская локализация: 15 000+ строк поверх модов без русского перевода |
 
 ## 🐞 Баги и предложения
 
@@ -66,7 +66,7 @@ Details — map priorities, what not to enable, which validator warnings are exp
 | `README_УСТАНОВКА.txt` | Detailed install & setup guide (Russian) |
 | `README_INSTALL_EN.txt` | The same guide in English |
 | `Zomboid/Lua/sorting_rules.txt` | Load-order rules for Mod Load Order Sorter |
-| `Zomboid/mods/default.txt` | Ready-made enabled-mods list (82 mods) |
+| `Zomboid/mods/default.txt` | Ready-made enabled-mods list (100 mods) |
 
 A Steam subscription delivers the mods themselves — but not these files.
 
@@ -76,7 +76,7 @@ A Steam subscription delivers the mods themselves — but not these files.
 |---|---|
 | [Hydrocraft Reinvented [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) | The legendary mega-mod rebuilt for B42: 5,196 items, 3,620 recipes on the native craftRecipe system |
 | [ZZZ Mod Stitch [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778211804) | Compatibility patch: mends the seams between mods, validates the pack on every boot |
-| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Russian localization: 10,000+ strings on top of mods that ship without one |
+| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Russian localization: 15,000+ strings on top of mods that ship without one |
 
 ## 🐞 Bugs & suggestions
 
