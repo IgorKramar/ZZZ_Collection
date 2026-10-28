@@ -1,87 +1,99 @@
-![ZZZ Industrial Collection](banner.jpg)
+<div align="center">
 
 # ZZZ Industrial Collection
 
-**Сборка модов для Project Zomboid Build 42.20.2+** · [Коллекция в Мастерской Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259)
+**English** · [Русский](README.ru.md)
 
-Индустриальный апокалипсис: выживание трудом. Разожги горн, собери станок, распаши поле, почини грузовик — и построй среди мёртвого Кентукки работающее хозяйство. 100 модов с выверенным порядком загрузки, проверенной совместимостью и полной русской локализацией.
+### A working homestead in a fallen Kentucky.
 
-*An industrial apocalypse modpack for Project Zomboid Build 42.20.2+: 100 mods with a tuned load order, verified compatibility and full Russian localization. English version below.*
+Project Zomboid Build 42 · Steam Workshop mods · A ready-to-use starter kit
 
----
+![Project Zomboid](https://img.shields.io/badge/Project_Zomboid-Build_42-e0af68?style=flat-square)
+![Format](https://img.shields.io/badge/starter_kit-ZIP-9ece6a?style=flat-square)
+![Load order](https://img.shields.io/badge/load_order-Mod_Load_Order_Sorter-bb9af7?style=flat-square)
+[![Steam](https://img.shields.io/badge/Steam-Workshop-7aa2f7?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259)
 
-## 📥 Быстрый старт
+[Install](#install) · [Starter kit](#starter-kit) · [Flagship mods](#flagship-mods) · [Compatibility](#compatibility) · [Support](#support) · [Rights](#credits-and-rights)
 
-1. **Ветка b42.** Steam → Project Zomboid → Свойства → Бета-версии → `b42`.
-2. **Подписка.** На [странице коллекции](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) нажмите «Подписаться на все» и дождитесь загрузки (несколько ГБ).
-3. **Стартовый набор.** Скачайте [`ZZZ_Collection_StarterKit.zip`](ZZZ_Collection_StarterKit.zip) и распакуйте папку `Zomboid` из архива поверх `C:\Users\<имя>\Zomboid`.
-4. **Порядок загрузки.** В игре на экране модов нажмите «Сортировать и принять».
+</div>
 
-Подробности — в `README_УСТАНОВКА.txt` внутри архива: настройка приоритетов карт, что не включать, какие предупреждения валидатора считать нормой.
+![ZZZ Industrial Collection — modpack banner](banner.jpg)
 
-## 📦 Что в архиве
+**Light the forge, assemble the machines, plough the field, fix the truck.**
+ZZZ is an industrial survival modpack for Project Zomboid **Build 42.20.2+**. This repository supplies the configuration that a Workshop subscription does not install: the enabled-mods list and load-order rules, plus setup guides in English and Russian.
 
-| Файл | Назначение |
-|---|---|
-| `README_УСТАНОВКА.txt` | Подробная инструкция по установке и настройке (RU) |
-| `README_INSTALL_EN.txt` | Та же инструкция на английском |
-| `Zomboid/Lua/sorting_rules.txt` | Правила порядка загрузки для Mod Load Order Sorter |
-| `Zomboid/mods/default.txt` | Готовый список включённых модов (100 шт.) |
+The bundled starter kit targets **100 enabled mods** and was documented as tested on **42.20.2**. Workshop mods and newer game builds can change independently; the kit is not a guarantee that every current combination has been retested.
 
-Эти файлы не приезжают автоматически при подписке на коллекцию — Steam доставляет только сами моды.
+## Install
 
-## 🧩 Титульные моды сборки
+1. In Steam, open **Project Zomboid → Properties → Betas** and select the `b42` branch described by the starter kit.
+2. Open the [Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259), choose **Subscribe to all**, and wait for all downloads to finish (several GB).
+3. Download [`ZZZ_Collection_StarterKit.zip`](ZZZ_Collection_StarterKit.zip). **Close the game and back up your existing `default.txt` and `sorting_rules.txt` before copying:** the supplied files replace your current enabled-mods list and load-order rules.
+4. Copy `Zomboid/mods/default.txt` from the archive to `C:\Users\<name>\Zomboid\mods\`, and `Zomboid/Lua/sorting_rules.txt` to `C:\Users\<name>\Zomboid\Lua\`.
+5. Launch the game. On the mods screen, press **Sort and accept**, provided by **Mod Load Order Sorter**.
 
-| Мод | Что делает |
-|---|---|
-| [Hydrocraft Reinvented [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) | Легендарный мега-мод, пересобранный для B42: 5 196 предметов, 3 620 рецептов на нативной системе craftRecipe |
-| [ZZZ Mod Stitch [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778211804) | Патч совместимости: чинит стыки между модами, валидирует сборку при каждом запуске |
-| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Русская локализация: 15 000+ строк поверх модов без русского перевода |
+These are Windows profile paths. For another operating system or a custom profile, use its actual `Zomboid` directory. To enable mods manually instead, follow `README_INSTALL_EN.txt` inside the archive, including its exclusions below.
 
-## 🐞 Баги и предложения
+## Starter kit
 
-Пишите в обсуждения соответствующего мода в Мастерской или в комментарии коллекции. К отчёту приложите хвост `console.txt` из папки `Zomboid`.
+| Archive entry | Purpose |
+|:---|:---|
+| `README_INSTALL_EN.txt` | Full installation and setup guide in English |
+| `README_УСТАНОВКА.txt` | Full installation and setup guide in Russian |
+| `Zomboid/Lua/sorting_rules.txt` | Rules consumed by Mod Load Order Sorter |
+| `Zomboid/mods/default.txt` | Ready-made enabled-mods list |
 
----
+**The archive contains configuration and documentation, not the Workshop mods.** Steam downloads those separately. No build toolchain is required to use this kit.
 
-# English
+## Flagship mods
 
-**A Project Zomboid Build 42.20.2+ modpack** · [Steam Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259)
+| Mod | Role |
+|:---|:---|
+| [Hydrocraft Reinvented [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) | Thousands of items and recipes ported to B42's native `craftRecipe` system |
+| [ZZZ Mod Stitch [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778211804) | Compatibility patches and a startup validator for the collection |
+| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Additional Russian translations for mods with missing or incomplete localization |
 
-Kentucky has fallen, but skilled hands remember. Light the forge, assemble the machines, plough the field, fix the truck — and build a working homestead in the middle of a dead world.
+Russian localization follows the game's language setting when ZZZ RusPack is enabled. Individual mods supply their own other languages.
 
-## 📥 Quick start
+## Compatibility
 
-1. **The b42 branch.** Steam → Project Zomboid → Properties → Betas → `b42`.
-2. **Subscribe.** Press "Subscribe to all" on the [collection page](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) and let Steam finish downloading (several GB).
-3. **Starter kit.** Download [`ZZZ_Collection_StarterKit.zip`](ZZZ_Collection_StarterKit.zip) and unpack its `Zomboid` folder over `C:\Users\<name>\Zomboid`.
-4. **Load order.** Press "Sort and accept" on the in-game mods screen.
+<details>
+<summary><strong>Do not enable these entries</strong></summary>
 
-Details — map priorities, what not to enable, which validator warnings are expected — are covered in `README_INSTALL_EN.txt` inside the archive.
+- **Capacity Limit Bypass [MANUAL INSTALLATION]** asks for manual game-engine file replacement. The starter kit explicitly excludes it; do not install it as part of this pack.
+- **Somewhat Traits Skills** duplicates functionality provided by **Legendary Professions and Traits**. It is disabled in the supplied list.
 
-## 📦 What's in the archive
+</details>
 
-| File | Purpose |
-|---|---|
-| `README_УСТАНОВКА.txt` | Detailed install & setup guide (Russian) |
-| `README_INSTALL_EN.txt` | The same guide in English |
-| `Zomboid/Lua/sorting_rules.txt` | Load-order rules for Mod Load Order Sorter |
-| `Zomboid/mods/default.txt` | Ready-made enabled-mods list (100 mods) |
+<details>
+<summary><strong>Map priorities and expected warnings</strong></summary>
 
-A Steam subscription delivers the mods themselves — but not these files.
+Use **Map Mod Manager** to choose the winning map where cells overlap:
 
-## 🧩 Flagship mods
+| Maps | Cells |
+|:---|:---|
+| Constown / New Hartburg | `24_42`–`24_44` |
+| Louisville Quarantine Zone / PIE42 | `44_13`, `45_13` |
 
-| Mod | What it does |
-|---|---|
-| [Hydrocraft Reinvented [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) | The legendary mega-mod rebuilt for B42: 5,196 items, 3,620 recipes on the native craftRecipe system |
-| [ZZZ Mod Stitch [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778211804) | Compatibility patch: mends the seams between mods, validates the pack on every boot |
-| [ZZZ RusPack [B42]](https://steamcommunity.com/sharedfiles/filedetails/?id=3778212091) | Russian localization: 15,000+ strings on top of mods that ship without one |
+The bundled guide identifies yellow warnings about these overlaps and `tiledef 7001` (Customizable Containers / Fort Waterfront) as known conditions. Other red validator messages should be reported rather than ignored.
 
-## 🐞 Bugs & suggestions
+</details>
 
-Post in the Workshop discussions of the respective mod or in the collection comments. Attach the tail of `console.txt` from your `Zomboid` folder.
+<details>
+<summary><strong>First launch and Horse Mod</strong></summary>
 
----
+After enabling Horse Mod, fully restart the game before playing. The kit warns that enabling it without a restart can leave animation placeholders instead of horses.
 
-*Collection built and maintained by [hombrehumor](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259).*
+</details>
+
+Keep the full guides in the ZIP nearby: they describe the configuration shipped here. Updates to the game or Workshop collection may require adjustments.
+
+## Support
+
+Post in the relevant mod's Workshop discussions or the [collection comments](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259). Include the game version, affected mod, single-player/server context and the relevant tail of your profile's `console.txt`.
+
+## Credits and rights
+
+Collection assembled and maintained by **hombrehumor**. The included Workshop mods belong to their respective authors; their distribution and reuse terms remain separate.
+
+This repository currently contains no `LICENSE` granting blanket reuse rights for the collection or starter kit. A download link does not relicense third-party mods, artwork or game resources. Check the relevant authors' terms before redistributing their material.
